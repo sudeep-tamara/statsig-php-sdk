@@ -1,5 +1,5 @@
 {
-    "name": "statsig/statsigsdk",
+    "name": "sudeep-tamara/statsigsdk",
     "description": "The Statsig php SDK for multi-user, server side environments.",
     "keywords": [
         "feature gate", "ab test", "ab test", "statsig"
@@ -25,6 +25,12 @@
         "mockery/mockery": "^1.5",
         "phpunit/phpunit": "^9.3"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sudeep-tamara/statsig-php-sdk.git"
+        }
+    ],
     "support": {
         "issues": "https://github.com/statsig-io/php-sdk/issues",
         "source": "https://github.com/statsig-io/php-sdk"
